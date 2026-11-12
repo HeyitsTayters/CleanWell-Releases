@@ -6,7 +6,7 @@ A macOS cleanup and maintenance app with tools for cache cleanup, app removal, d
 
 Download packaged builds from [Releases](https://github.com/HeyitsTayters/CleanWell-Releases/releases). Development builds are marked as prereleases. Source code and development records are maintained privately.
 
-The current development build still displays **Clearwell** inside the app.
+The app, executable, and interface now use the **CleanWell** name.
 
 ## Install
 
@@ -14,13 +14,13 @@ Download the macOS archive for your Mac, unzip it, and move `CleanWell.app` into
 
 ## Screenshots
 
-Clean screen from the existing development build:
+Clean screen:
 
 ![Clean screen](screenshots/clean.png)
 
-Earlier maintenance screen preview (appearance may differ in current builds):
+Maintenance screen:
 
-![Early maintenance preview](screenshots/optimize-early-preview.png)
+![Maintenance screen](screenshots/optimize.png)
 
 ## Feedback
 

@@ -1,14 +1,12 @@
-# CleanWell 1.0.0 development preview
+# CleanWell 1.0.0 development preview 2
 
-Initial snapshot from the Craft Anything project on November 12, 2026.
+- Renamed the interface, window title, About text, Rust app type, package, executable, and temporary icon directory to CleanWell / `cleanwell`.
+- Refreshed the Clean and Optimize screenshots from the renamed release build.
+- Updated the macOS bundle to launch the `cleanwell` executable.
+- No cleanup or maintenance behavior changes.
 
-- macOS app for cleanup, app removal, maintenance, disk analysis, and system health.
-- Apple Silicon (arm64) only; Intel Macs are not supported by this build.
-- The current app interface still uses the name Clearwell.
-- Development prerelease; not notarized or signed with a Developer ID certificate.
-- Release compilation succeeded; unit tests: 3 passed, 1 ignored.
-- Interactive cleanup and maintenance operations have not been validated as part of this packaging step.
+Apple Silicon (arm64) only. Download `CleanWell-1.0.0-preview.2-macos-arm64.zip`, extract it, and move CleanWell.app to Applications.
 
-Download `CleanWell-1.0.0-preview.1-macos-arm64.zip`, extract it, and move CleanWell.app to Applications. Review selections before running cleanup or maintenance.
+This development build is not notarized or signed with a Developer ID certificate. Release compilation succeeded; tests: 3 passed, 1 ignored. The app was launched to capture both screenshots. Interactive cleanup and maintenance operations were not exercised.
 
-Screenshots in the README are development previews; the maintenance image is from an earlier iteration.
+Renaming the application identity may start with default preferences instead of the previous Clearwell preferences. Review your settings and protected paths before cleaning.
